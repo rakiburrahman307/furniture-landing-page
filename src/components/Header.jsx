@@ -1,5 +1,6 @@
 import char from "../assets/images/char.png";
 import wood from "../assets/images/wood.png";
+import HeaderCard from "./HeaderCard";
 import HeaderTextOverlay from "./HeaderTextOverlay";
 import Nav from "./nav";
 
@@ -20,6 +21,7 @@ const Header = () => {
         />
       </div>
       <HeaderTextOverlay />
+      <HeaderCard/>
     </header>
   );
 };
