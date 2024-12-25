@@ -2,11 +2,11 @@ import { PiBagLight } from "react-icons/pi";
 
 const Nav = () => {
   return (
-    <nav className='flex flex-wrap justify-between items-center max-w-[1340px] mx-auto px-4 py-4'>
+    <nav className='flex flex-wrap justify-between items-center max-w-[1340px] mx-auto px-4 py-4 h-[50.53px] pt-[60px]'>
       <div className='text-[30px] md:text-[40px] font-bebas'>Timber Trove</div>
 
       <div className='hidden md:block'>
-        <ul className='font-mochiy text-lg md:text-xl flex gap-5'>
+        <ul className='font-mochiy text-lg md:text-xl flex gap-12'>
           <li className='hover:text-green-500 cursor-pointer'>HOME</li>
           <li className='hover:text-green-500 cursor-pointer'>SHOP</li>
           <li className='hover:text-green-500 cursor-pointer'>Features</li>

@@ -1,14 +1,7 @@
-import HeaderTextOverlay from "./components/HeaderTextOverlay";
-import Nav from "./components/nav";
+import Home from "./components/Home";
 
 function App() {
-
-  return (
-   <>
-    <Nav/>
-    <HeaderTextOverlay/>
-    </>
-  )
+  return <Home />;
 }
 
 export default App;
