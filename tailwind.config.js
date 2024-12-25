@@ -9,7 +9,7 @@ export default {
       fontFamily: {
         poppins: ['Poppins', 'sans-serif'],
         mochiy: ['Mochiy Pop One', 'sans-serif'],
-        robotoSerif: ['Roboto Serif', 'serif'],
+        robotoSerif: ['Roboto Slab', 'serif'],
         bebas: ['Bebas Neue', 'cursive'], // 'cursive' as fallback for decorative fonts
       },
     },
