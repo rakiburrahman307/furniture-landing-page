@@ -1,3 +1,4 @@
+import FeedbackCorner from "./FeedbackCorner";
 import Header from "./Header";
 import OurBlog from "./OurBlog";
 
@@ -6,6 +7,7 @@ const Home = () => {
     <div>
       <Header />
       <OurBlog/>
+      <FeedbackCorner/>
     </div>
   );
 };

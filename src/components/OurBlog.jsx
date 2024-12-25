@@ -1,14 +1,13 @@
 import ourBlog1 from "../assets/images/ourBlog/ourBlog1.jpeg";
 import ourBlog2 from "../assets/images/ourBlog/ourBlog2.jpeg";
 import ourBlog3 from "../assets/images/ourBlog/ourBlog3.jpeg";
+import Heading from "./Heading";
 
 const OurBlog = () => {
   return (
-    <section className='container mx-auto px-6 mt-24'>
+    <section className='container mx-auto px-6 mt-52'>
       <div>
-        <h2 className='capitalize text-3xl text-black text-center relative before:absolute before:bottom-0 before:w-[61px] before:h-[3px] before:bg-[#F56E07] before:rounded-e-full before:translate-x-[-50%] before:translate-y-[15px] before:left-[50%]'>
-          our blog
-        </h2>
+        <Heading>Our blog</Heading>
       </div>
       <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-7 pt-20'>
         {/* First Card */}
