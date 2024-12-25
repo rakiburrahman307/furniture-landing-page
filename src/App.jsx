@@ -1,10 +1,10 @@
+import Nav from "./components/nav";
 
 function App() {
 
-
   return (
-   <h2 className="text-center">hello world</h2>
+    <Nav/>
   )
 }
 
-export default App
+export default App;

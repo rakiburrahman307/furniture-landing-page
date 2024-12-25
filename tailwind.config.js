@@ -5,7 +5,14 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        poppins: ['Poppins', 'sans-serif'],
+        mochiy: ['Mochiy Pop One', 'sans-serif'],
+        robotoSerif: ['Roboto Serif', 'serif'],
+        bebas: ['Bebas Neue', 'cursive'], // 'cursive' as fallback for decorative fonts
+      },
+    },
   },
   plugins: [],
 }
