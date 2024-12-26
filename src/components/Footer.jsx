@@ -54,7 +54,7 @@ const Footer = () => {
                   type='submit'
                   className='block px-5 py-3 text-white transition duration-200 ease-in-out bg-black border border-transparent shadow-sm hover:bg-gray-800 focus:border-black focus:ring-2 focus:ring-black focus:outline-none focus:ring-opacity-50 disabled:opacity-50 disabled:cursor-not-allowed'
                 >
-                  Notify me
+                 SUBMIT
                 </button>
               </div>
             </div>
