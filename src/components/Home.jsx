@@ -6,6 +6,7 @@ import Header from "./Header";
 import LoungeChar from "./LoungeChar";
 import NewArrival from "./NewArrival";
 import OurBlog from "./OurBlog";
+import Subscribe from "./Subscribe";
 import TopBrand from "./TopBrand";
 
 const Home = () => {
@@ -16,6 +17,7 @@ const Home = () => {
       <NewArrival/>
       <BestDeals/>
       <HandPick/>
+      <Subscribe/>
       <OurBlog />
       <FeedbackCorner />
       <TopBrand />

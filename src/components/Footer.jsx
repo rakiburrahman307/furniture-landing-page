@@ -47,7 +47,7 @@ const Footer = () => {
                 required
                 placeholder='Enter your email'
                 aria-label='Email address'
-                className='w-[427px] px-5 py-3 text-base leading-6 transition duration-150 ease-in-out border-2 appearance-none focus:outline-none sm:max-w-xs border-black text-gray-900 placeholder-gray-500 focus:placeholder-gray-400 bg-white'
+                className='w-[427px] px-5 py-3 text-base rounded-s-md leading-6 transition duration-150 ease-in-out border-2 appearance-none focus:outline-none sm:max-w-xs border-black text-gray-900 placeholder-gray-500 focus:placeholder-gray-400 bg-white'
               />
               <div className='mt-3 sm:mt-0 sm:flex-shrink-0'>
                 <button

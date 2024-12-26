@@ -90,12 +90,12 @@ const NewArrival = () => {
                 className='block w-full h-[334px]'
               />
               {product?.hot && (
-                <p className='text-[10px] leading-[15px] text-white capitalize absolute top-4 left-4 bg-[#F56E07] rounded-lg py-1 px-3'>
+                <p className='text-[10px] font-mochiy leading-[14.48px] text-white capitalize absolute top-4 left-4 bg-[#F56E07] rounded-lg py-1 px-3'>
                   hot
                 </p>
               )}
               {product?.discount && (
-                <p className='text-[10px] leading-[15px] text-white capitalize absolute top-4 right-4 bg-[#FF3939] rounded-lg py-1 px-3'>
+                <p className='text-[10px] leading-[14.48px] font-mochiy text-white capitalize absolute top-4 right-4 bg-[#FF3939] rounded-lg py-1 px-3'>
                   -10%
                 </p>
               )}

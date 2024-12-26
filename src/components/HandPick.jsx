@@ -32,7 +32,7 @@ const HandPick = () => {
   ];
 
   return (
-    <section className='max-w-[1339px] mx-auto mt-24 relative'>
+    <section className='max-w-[1339px] mx-auto my-24 relative'>
       <h2 className='font-mochiy text-[30px] text-black text-center mb-20'>
         Hand Pick
       </h2>
