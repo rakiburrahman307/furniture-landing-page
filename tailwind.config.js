@@ -10,7 +10,7 @@ export default {
         poppins: ['Poppins', 'sans-serif'],
         mochiy: ['Mochiy Pop One', 'sans-serif'],
         robotoSerif: ['Roboto Slab', 'serif'],
-        bebas: ['Bebas Neue', 'cursive'], // 'cursive' as fallback for decorative fonts
+        bebas: ['Bebas Neue', 'serif'], 
       },
     },
   },

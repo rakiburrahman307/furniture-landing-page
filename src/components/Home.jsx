@@ -1,4 +1,5 @@
 import FeedbackCorner from "./FeedbackCorner";
+import Footer from "./Footer";
 import Header from "./Header";
 import LoungeChar from "./LoungeChar";
 import OurBlog from "./OurBlog";
@@ -12,6 +13,7 @@ const Home = () => {
       <OurBlog />
       <FeedbackCorner />
       <TopBrand />
+      <Footer/>
     </div>
   );
 };
