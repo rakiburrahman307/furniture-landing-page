@@ -1,3 +1,4 @@
+import BestDeals from "./BestDeals";
 import FeedbackCorner from "./FeedbackCorner";
 import Footer from "./Footer";
 import Header from "./Header";
@@ -12,6 +13,7 @@ const Home = () => {
       <Header />
       <LoungeChar />
       <NewArrival/>
+      <BestDeals/>
       <OurBlog />
       <FeedbackCorner />
       <TopBrand />
