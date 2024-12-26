@@ -1,7 +1,7 @@
 import ourBlog1 from "../assets/images/ourBlog/ourBlog1.jpeg";
 import ourBlog2 from "../assets/images/ourBlog/ourBlog2.jpeg";
 import ourBlog3 from "../assets/images/ourBlog/ourBlog3.jpeg";
-import Heading from "./utils/Heading";
+import Heading from "./Heading";
 
 const blogData = [
   {
@@ -38,7 +38,7 @@ const blogData = [
 
 const OurBlog = () => {
   return (
-    <section className='container mx-auto px-6 mt-52'>
+    <section className='max-w-[1425px] mx-auto px-6 mt-24'>
       <div>
         <Heading>Our blog</Heading>
       </div>

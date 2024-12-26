@@ -1,4 +1,4 @@
-import Heading from "./utils/Heading";
+import Heading from "./Heading";
 
 const feedbacks = [
   {
@@ -20,7 +20,7 @@ const feedbacks = [
 
 const FeedbackCorner = () => {
   return (
-    <section className='container mx-auto px-6 mt-24'>
+    <section className='max-w-[1425px] mx-auto px-6 mt-24'>
       <div>
         <Heading>feedback corner</Heading>
       </div>

@@ -1,5 +1,5 @@
 import { FaStar } from "react-icons/fa6";
-import Heading from "./utils/Heading";
+import Heading from "./Heading";
 import newArrival1 from "../assets/images/newArrival/newArrival1.jpeg";
 import newArrival2 from "../assets/images/newArrival/newArrival2.jpeg";
 import newArrival3 from "../assets/images/newArrival/newArrival3.jpeg";
@@ -78,7 +78,7 @@ const products = [
 
 const NewArrival = () => {
   return (
-    <section className='container mx-auto px-6 my-24'>
+    <section className='max-w-[1425px] mx-auto px-6 my-24'>
       <Heading>new arrival</Heading>
       <div className='mt-24 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-8 gap-y-20'>
         {products?.map((product, index) => (

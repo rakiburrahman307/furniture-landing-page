@@ -4,7 +4,7 @@ import { FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className='bg-[#E9F4EE] max-w-[1500px] h-auto mx-auto px-6 py-10'>
+    <footer className='bg-[#E9F4EE] h-auto mx-auto px-6 py-10'>
       {/* Main Footer Content */}
       <div className='flex justify-center items-start gap-40 pt-32'>
         {/* Brand and Social Media Section */}

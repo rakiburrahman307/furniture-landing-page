@@ -4,8 +4,8 @@ import image3 from "../assets/images/image6.jpeg";
 
 const LoungeChar = () => {
   return (
-    <section className='container mx-auto px-6 mt-60'>
-      <div className='flex flex-wrap gap-10 justify-center'>
+    <section className='max-w-[1425px] mx-auto px-6 mt-60'>
+      <div className='flex flex-wrap gap-20 justify-center'>
         {/* First Card */}
         <div className='w-[404px] h-[368px] rounded-lg relative overflow-hidden'>
           <img

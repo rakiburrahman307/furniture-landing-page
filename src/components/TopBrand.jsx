@@ -3,7 +3,7 @@ import topBrand2 from "../assets/images/topBrand/topBrand2.png";
 import topBrand3 from "../assets/images/topBrand/topBrand3.png";
 import topBrand4 from "../assets/images/topBrand/topBrand4.png";
 import topBrand5 from "../assets/images/topBrand/topBrand5.png";
-import Heading from "./utils/Heading";
+import Heading from "./Heading";
 
 const brandImages = [
   { src: topBrand1, alt: "Top Brand 1" },
@@ -15,7 +15,7 @@ const brandImages = [
 
 const TopBrand = () => {
   return (
-    <section className="container mx-auto px-6 my-24">
+    <section className="max-w-[1425px] mx-auto px-6 my-24">
       <div>
         <Heading>top brand</Heading>
         <div className="flex justify-between items-center gap-3 pt-20">

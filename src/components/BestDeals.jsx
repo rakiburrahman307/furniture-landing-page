@@ -21,9 +21,10 @@ const BestDeals = () => {
     },
   ];
   return (
-    <section className='max-w-[1499px] mx-auto relative'>
+    <section className='max-w-full mx-auto relative'>
       {/* Main Banner */}
-      <div className='h-[671px] bg-[#647485] flex items-center pl-28 gap-12'>
+     <div className="bg-[#647485]">
+     <div className='max-w-[1425px] mx-auto h-[671px] flex items-center gap-12'>
         {/* Text Content */}
         <div className='flex flex-col space-y-16'>
           <div className='flex flex-col justify-start items-start'>
@@ -55,6 +56,7 @@ const BestDeals = () => {
           ))}
         </div>
       </div>
+     </div>
       <div className='h-[111px] bg-[#CDC9C4]'>
         <img
           className='absolute right-1 -bottom-9 w-[481px] h-[543px]'
