@@ -1,4 +1,5 @@
 # Furniture Website
+![Design preview for Sky Snap](./src/assets/preview.JPG)
 
 A modern and responsive React application for a furniture website, designed with Tailwind CSS for seamless styling and layout.
 
