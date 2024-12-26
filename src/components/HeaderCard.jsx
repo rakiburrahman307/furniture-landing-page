@@ -4,11 +4,11 @@ import char3 from "../assets/images/char3.png";
 
 const HeaderCard = () => {
   return (
-    <section className='flex max-w-[1173px] mx-auto gap-5 -mt-[130px] flex-wrap sm:flex-col md:flex-row lg:flex-row'>
+    <section className='flex max-w-[1173px] my-24 md:my-0 mx-auto gap-5 md:-mt-[130px] flex-wrap sm:flex-col md:flex-row lg:flex-row'>
       {/* First Card */}
-      <div className='flex relative flex-col justify-center items-center w-[372px] h-[260px] bg-white shadow-xl sm:w-[320px] sm:h-[250px] md:w-[350px] lg:w-[372px]'>
+      <div className='flex md:relative flex-col justify-center items-center w-[372px] h-auto py-5 md:py-0 mb-10 md:mb-0 md:h-[260px] bg-white shadow-xl md:w-[372px]'>
         <img
-          className='w-[198px] absolute -top-20 h-[198px] sm:w-[170px] sm:h-[170px] md:w-[180px] md:h-[180px]'
+          className='w-[198px] md:absolute -top-20 h-[198px] sm:w-[170px] sm:h-[170px] md:w-[180px] md:h-[180px]'
           src={char1}
           alt='Comfy Chair'
         />
@@ -21,9 +21,9 @@ const HeaderCard = () => {
       </div>
 
       {/* Second Card */}
-      <div className='flex relative flex-col justify-center items-center w-[372px] h-[260px] bg-white shadow-xl sm:w-[320px] sm:h-[250px] md:w-[350px] lg:w-[372px]'>
+      <div className='flex md:relative flex-col justify-center items-center w-[372px] h-auto py-5 md:py-0 mb-10 md:mb-0 md:h-[260px] bg-white shadow-xl md:w-[372px]'>
         <img
-          className='w-[208px] absolute -top-20 h-[208px] sm:w-[180px] sm:h-[180px] md:w-[190px] md:h-[190px]'
+          className='w-[208px] md:absolute -top-20 h-[208px] sm:w-[180px] sm:h-[180px] md:w-[190px] md:h-[190px]'
           src={char2}
           alt='Comfy Chair'
         />
@@ -39,9 +39,9 @@ const HeaderCard = () => {
       </div>
 
       {/* Third Card */}
-      <div className='flex relative flex-col justify-center items-center w-[372px] h-[260px] bg-white shadow-xl sm:w-[320px] sm:h-[250px] md:w-[350px] lg:w-[372px]'>
+      <div className='flex md:relative flex-col justify-center items-center w-[372px] h-auto py-5 md:py-0 mb-10 md:mb-0 md:h-[260px] bg-white shadow-xl md:w-[372px]'>
         <img
-          className='w-[209px] absolute -top-32 h-[289px] sm:w-[180px] sm:h-[250px] md:w-[190px] md:h-[270px]'
+          className='w-[209px] md:absolute -top-32 h-[289px] sm:w-[180px] sm:h-[250px] md:w-[190px] md:h-[270px]'
           src={char3}
           alt='VibeLiving Chair'
         />

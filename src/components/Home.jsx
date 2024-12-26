@@ -3,6 +3,7 @@ import FeedbackCorner from "./FeedbackCorner";
 import Footer from "./Footer";
 import HandPick from "./HandPick";
 import Header from "./Header";
+import HeaderCard from "./HeaderCard";
 import LoungeChar from "./LoungeChar";
 import NewArrival from "./NewArrival";
 import OurBlog from "./OurBlog";
@@ -14,6 +15,7 @@ const Home = () => {
   return (
     <div>
       <Header />
+      <HeaderCard/>
       <LoungeChar />
       <NewArrival/>
       <BestDeals/>

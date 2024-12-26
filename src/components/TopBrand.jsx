@@ -18,13 +18,13 @@ const TopBrand = () => {
     <section className="max-w-[1425px] mx-auto px-6 my-24">
       <div>
         <Heading>top brand</Heading>
-        <div className="flex justify-between items-center gap-3 pt-20">
+        <div className="flex flex-wrap justify-center lg:justify-between items-center gap-4 lg:gap-3 pt-10 lg:pt-20">
           {brandImages.map((brand, index) => (
             <img
               key={index}
               src={brand?.src}
               alt={brand?.alt}
-              className="block w-[104.26px] h-[92.79px]"
+              className="w-[80px] h-[70px] md:w-[104.26px] md:h-[92.79px]"
             />
           ))}
         </div>

@@ -14,7 +14,7 @@ const Nav = () => {
         </ul>
       </div>
       <div className='flex justify-center items-center gap-5 md:gap-10'>
-        <div className='relative'>
+        <div className='hidden md:block relative'>
           <PiBagLight size={30} className='md:size-35' />
           <div className='w-3 h-3 md:w-2.5 md:h-2.5 absolute top-5 left-5 md:top-5 md:left-5 bg-green-500 rounded-full'></div>
         </div>

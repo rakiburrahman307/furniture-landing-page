@@ -37,7 +37,7 @@ const HandPick = () => {
         Hand Pick
       </h2>
 
-      <div className='flex justify-between items-center'>
+      <div className='flex flex-wrap justify-center gap-4 lg:justify-between items-center mt-10'>
         {sofas?.slice(0, 2).map((sofa) => (
           <Card key={sofa.id} sofa={sofa} />
         ))}
@@ -45,12 +45,12 @@ const HandPick = () => {
 
       <div>
         <img
-          className='w-[534px] h-[461px] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2'
+          className='w-[534px] h-[461px] md:absolute md:top-1/2 md:left-1/2 md:transform md:-translate-x-1/2 md:-translate-y-1/2'
           src={centerSofa}
           alt='sofa'
         />
 
-        <div className='flex justify-between items-center mt-10'>
+        <div className='flex flex-wrap justify-center gap-4 lg:justify-between items-center mt-10'>
           {sofas?.slice(2).map((sofa) => (
             <Card key={sofa?.id} sofa={sofa} />
           ))}
