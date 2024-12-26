@@ -1,5 +1,5 @@
 import { FaStar } from "react-icons/fa6";
-import Heading from "./Heading";
+import Heading from "./utils/Heading";
 import newArrival1 from "../assets/images/newArrival/newArrival1.jpeg";
 import newArrival2 from "../assets/images/newArrival/newArrival2.jpeg";
 import newArrival3 from "../assets/images/newArrival/newArrival3.jpeg";

@@ -1,6 +1,7 @@
 import BestDeals from "./BestDeals";
 import FeedbackCorner from "./FeedbackCorner";
 import Footer from "./Footer";
+import HandPick from "./HandPick";
 import Header from "./Header";
 import LoungeChar from "./LoungeChar";
 import NewArrival from "./NewArrival";
@@ -14,6 +15,7 @@ const Home = () => {
       <LoungeChar />
       <NewArrival/>
       <BestDeals/>
+      <HandPick/>
       <OurBlog />
       <FeedbackCorner />
       <TopBrand />
