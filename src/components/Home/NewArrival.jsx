@@ -1,13 +1,13 @@
 import { FaStar } from "react-icons/fa6";
-import Heading from "./Heading";
-import newArrival1 from "../assets/images/newArrival/newArrival1.jpeg";
-import newArrival2 from "../assets/images/newArrival/newArrival2.jpeg";
-import newArrival3 from "../assets/images/newArrival/newArrival3.jpeg";
-import newArrival4 from "../assets/images/newArrival/newArrival4.jpeg";
-import newArrival5 from "../assets/images/newArrival/newArrival5.jpeg";
-import newArrival6 from "../assets/images/newArrival/newArrival6.jpeg";
-import newArrival7 from "../assets/images/newArrival/newArrival7.jpeg";
-import newArrival8 from "../assets/images/newArrival/newArrival8.jpeg";
+import Heading from "../utils/Heading";
+import newArrival1 from "../../assets/images/newArrival/newArrival1.jpeg";
+import newArrival2 from "../../assets/images/newArrival/newArrival2.jpeg";
+import newArrival3 from "../../assets/images/newArrival/newArrival3.jpeg";
+import newArrival4 from "../../assets/images/newArrival/newArrival4.jpeg";
+import newArrival5 from "../../assets/images/newArrival/newArrival5.jpeg";
+import newArrival6 from "../../assets/images/newArrival/newArrival6.jpeg";
+import newArrival7 from "../../assets/images/newArrival/newArrival7.jpeg";
+import newArrival8 from "../../assets/images/newArrival/newArrival8.jpeg";
 
 const products = [
   {

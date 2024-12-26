@@ -1,6 +1,6 @@
-import image1 from "../assets/images/image4.jpeg";
-import image2 from "../assets/images/image5.jpeg";
-import image3 from "../assets/images/image6.jpeg";
+import image1 from "../../assets/images/image4.jpeg";
+import image2 from "../../assets/images/image5.jpeg";
+import image3 from "../../assets/images/image6.jpeg";
 
 const LoungeChar = () => {
   return (

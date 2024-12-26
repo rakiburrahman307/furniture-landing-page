@@ -1,5 +1,5 @@
-import bestDeal1 from "../assets/images/bestDeal/bestDeal1.png";
-import bestDeal2 from "../assets/images/bestDeal/bestDeal2.png";
+import bestDeal1 from "../../assets/images/bestDeal/bestDeal1.png";
+import bestDeal2 from "../../assets/images/bestDeal/bestDeal2.png";
 
 const BestDeals = () => {
   const timeObj = [
@@ -64,7 +64,7 @@ const BestDeals = () => {
           alt='Best deal item 1'
         />
         <img
-          className='absolute right-48 -bottom-5 w-52 h-52 md:right-[400px] md:-bottom-12 md:w-[466px] md:h-[626px]'
+          className='absolute right-48../ -bottom-5 w-52 h-52 md:right-[400px] md:-bottom-12 md:w-[466px] md:h-[626px]'
           src={bestDeal2}
           alt='Best deal item 2'
         />

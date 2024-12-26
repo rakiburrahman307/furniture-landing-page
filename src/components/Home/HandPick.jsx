@@ -1,9 +1,9 @@
-import sofa1 from "../assets/images/handPick/sofa1.jpeg";
-import sofa2 from "../assets/images/handPick/sofa2.jpeg";
-import sofa3 from "../assets/images/handPick/sofa3.jpeg";
-import sofa4 from "../assets/images/handPick/sofa4.jpeg";
-import centerSofa from "../assets/images/handPick/center-sofa.png";
-import Card from "./utils/Card";
+import sofa1 from "../../assets/images/handPick/sofa1.jpeg";
+import sofa2 from "../../assets/images/handPick/sofa2.jpeg";
+import sofa3 from "../../assets/images/handPick/sofa3.jpeg";
+import sofa4 from "../../assets/images/handPick/sofa4.jpeg";
+import centerSofa from "../../assets/images/handPick/center-sofa.png";
+import Card from "../utils/Card";
 
 const HandPick = () => {
   const sofas = [

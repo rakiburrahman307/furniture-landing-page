@@ -1,5 +1,5 @@
-import Circle from '../assets/images/ShopLook/upCircle.png';
-import bg from '../assets/images/ShopLook/ShopLookBG.png';
+import Circle from '../../assets/images/ShopLook/upCircle.png';
+import bg from '../../assets/images/ShopLook/ShopLookBG.png';
 
 const ShopLook = () => {
   return (

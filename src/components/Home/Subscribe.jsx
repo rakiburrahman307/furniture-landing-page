@@ -1,4 +1,4 @@
-import subscribe from '../assets/images/subscribe/subscribe.jpeg'
+import subscribe from '../../assets/images/subscribe/subscribe.jpeg'
 import { FaRegEnvelope } from "react-icons/fa";
 const Subscribe = () => {
   return (

@@ -1,7 +1,7 @@
-import ourBlog1 from "../assets/images/ourBlog/ourBlog1.jpeg";
-import ourBlog2 from "../assets/images/ourBlog/ourBlog2.jpeg";
-import ourBlog3 from "../assets/images/ourBlog/ourBlog3.jpeg";
-import Heading from "./Heading";
+import ourBlog1 from "../../assets/images/ourBlog/ourBlog1.jpeg";
+import ourBlog2 from "../../assets/images/ourBlog/ourBlog2.jpeg";
+import ourBlog3 from "../../assets/images/ourBlog/ourBlog3.jpeg";
+import Heading from "../utils/Heading";
 
 const blogData = [
   {

@@ -1,9 +1,10 @@
-import topBrand1 from "../assets/images/topBrand/topBrand1.png";
-import topBrand2 from "../assets/images/topBrand/topBrand2.png";
-import topBrand3 from "../assets/images/topBrand/topBrand3.png";
-import topBrand4 from "../assets/images/topBrand/topBrand4.png";
-import topBrand5 from "../assets/images/topBrand/topBrand5.png";
-import Heading from "./Heading";
+import topBrand1 from "../../assets/images/topBrand/topBrand1.png";
+import topBrand2 from "../../assets/images/topBrand/topBrand2.png";
+import topBrand3 from "../../assets/images/topBrand/topBrand3.png";
+import topBrand4 from "../../assets/images/topBrand/topBrand4.png";
+import topBrand5 from "../../assets/images/topBrand/topBrand5.png";
+import Heading from "../utils/Heading";
+
 
 const brandImages = [
   { src: topBrand1, alt: "Top Brand 1" },

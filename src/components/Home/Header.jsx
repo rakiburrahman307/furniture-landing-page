@@ -1,5 +1,5 @@
-import char from "../assets/images/char.png";
-import wood from "../assets/images/wood.png";
+import char from "../../assets/images/char.png";
+import wood from "../../assets/images/wood.png";
 import HeaderTextOverlay from "./HeaderTextOverlay";
 import Nav from "./nav";
 
