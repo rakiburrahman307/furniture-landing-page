@@ -13,7 +13,7 @@ import TopBrand from "./TopBrand";
 
 const Home = () => {
   return (
-    <div>
+    <div className="w-full mx-auto">
       <Header />
       <HeaderCard/>
       <LoungeChar />

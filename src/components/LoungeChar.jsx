@@ -4,7 +4,7 @@ import image3 from "../assets/images/image6.jpeg";
 
 const LoungeChar = () => {
   return (
-    <section className="max-w-[1425px] mx-auto px-4 sm:px-6 mt-20 sm:mt-60">
+    <section className="max-w-[1425px] mx-auto px-4 sm:px-6 md:mt-20 mt-24">
       <div className="flex flex-wrap gap-6 sm:gap-20 justify-center">
         {/* First Card */}
         <div className="w-full sm:w-[404px] h-[250px] sm:h-[368px] rounded-lg relative overflow-hidden">
@@ -25,7 +25,7 @@ const LoungeChar = () => {
         </div>
 
         {/* Second Card */}
-        <div className="w-full sm:w-[404px] h-[250px] sm:h-[368px] rounded-lg overflow-hidden">
+        <div className="w-full sm:w-[404px] h-[250px] sm:h-[368px] rounded-lg overflow-hidden my-10">
           <img
             className="w-full h-full object-cover"
             src={image2}

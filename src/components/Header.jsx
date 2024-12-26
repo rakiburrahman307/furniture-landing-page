@@ -5,12 +5,12 @@ import Nav from "./nav";
 
 const Header = () => {
   return (
-    <header className='bg-[#E9F4EE]'>
+    <header className='bg-[#E9F4EE] md:max-w-[1920px] mx-auto'>
       <div className='w-full md:max-w-[1500px] h-[871px] mx-auto relative z-50 sm:h-[700px] md:h-[600px] lg:h-[871px]'>
         {/* Navigation */}
-        <Nav />
+        <Nav /> 
         {/* Decorative Images */}
-        <div className='flex justify-center items-center md:relative'>
+        <div className='flex justify-center items-center md:relative w-f'>
           <img
             src={wood}
             className='hidden md:flex absolute -rotate-[53deg] top-[242px] -left-10 h-[340px] w-[768px] sm:h-[250px] sm:w-[600px] sm:top-[200px] sm:-left-[30px] md:h-[200px] md:w-[500px] md:top-[150px] md:-left-[20px] lg:h-[340px] lg:w-[768px] lg:top-[242px] lg:-left-10'
